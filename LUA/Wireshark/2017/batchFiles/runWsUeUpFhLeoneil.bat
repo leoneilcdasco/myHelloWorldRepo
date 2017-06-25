@@ -6,7 +6,7 @@ SET wsCmd=%wsPath% -X lua_script:%wsLuaScriptPath%
 
 ECHO %wsCmd%
 
-ECHO "Starting Wireshark using d:userdata\dasco\Home\AirPhone\Wireshark\interfaces_rev_e64ceac\luashark.lua"
+ECHO "Starting Wireshark using %wsLuaScriptPath%"
 
 %wsCmd%
 
